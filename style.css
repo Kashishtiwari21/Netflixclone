@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing:border-box;
 }
 body {
   background-color: black;
@@ -9,7 +10,7 @@ body {
 .main {
   background-image: url("assets/images/bg.jpg");
   background-position: center center;
-  background-size: max(1200, 100vw);
+  background-size: cover;
   background-repeat: no-repeat;
   height: 70vh;
   position: relative;
